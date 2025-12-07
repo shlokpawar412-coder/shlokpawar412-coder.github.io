@@ -67,7 +67,15 @@ button:hover {
 }
 
 /* Video */
-#videoSection iframe { width:90%; max-width:560px; height:315px; border:3px solid #0ff; border-radius:12px; box-shadow:0 0 20px #0ff; }
+#videoSection video {
+  width: 100%;       /* full width of container */
+  max-width: 560px;  /* max width for desktop */
+  height: auto;      /* maintain aspect ratio */
+  border: 3px solid #0ff;
+  border-radius: 12px;
+  box-shadow: 0 0 20px #0ff;
+}
+
 
 /* Background layers */
 #nebula {
